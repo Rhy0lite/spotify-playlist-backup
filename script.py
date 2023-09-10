@@ -32,7 +32,7 @@ AUTH_SCOPE = [
   'playlist-modify-public',
   'playlist-modify-private'
 ]
-OWNER_IDS = SPOTIFY_OWNER_IDS.split(',')
+OWNER_IDS = SPOTIFY_OWNER_IDS
 
 # caps out at 50
 PLAYLISTS_PER_CALL = 50
